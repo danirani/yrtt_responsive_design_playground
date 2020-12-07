@@ -10,6 +10,34 @@ body {
 }
 
 img {
+    display: none;
     max-width: 100%;
 }
+
+@media only screen and (min-width: 600px) {
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: rgb(176, 224, 230);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+
 
